@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.contenedor-body{
+    max-width: 800px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #4682b4;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.Mi-foticodeperfil{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.informacion-personal h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+    color: #4682b4;
+
+}
+
+.informacion-personal p {
+    font-size: 1em;
+}
+
+section {
+    margin-bottom:20px;
+}
