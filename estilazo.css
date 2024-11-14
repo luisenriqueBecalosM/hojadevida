@@ -29,7 +29,7 @@ header {
     margin-bottom: 20px;
 }
 
-.Mi-foticodeperfil{
+.Mi-foticodeperfil img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -58,7 +58,7 @@ h2 {
     border-bottom: 1px solid #4682b4;
     padding-bottom: 5px;
 }
-.trabajos, .Educacion {
+.trabajos, .escuela {
     margin-bottom:10px;
 }
 
@@ -71,6 +71,11 @@ p {
     margin-bottom: 10px;
 }
 
-.skills ul {
+ul {
     list-style-type: disc; 
+    padding-left: 20px; 
 }
+
+
+
+

@@ -9,12 +9,16 @@
      <!--Aqui hago el vinculo entre mi archivo css y mi archivo HTML  -->
      <link rel="stylesheet" href="estilazo.css"> 
 </head>
-<body>
+<body> 
+    <!-- Creo la clase contendor body para dejar dentro de una "Caja" todo el codigo y poder darle estilo mas facilmente en conjunto -->
     <div class="contenedor-body">
+    <!-- Utilizo el header como conjunto para poder crear espacio entre este y las otras secciones-->
         <header>
+        <!-- La division mi-foticodeperfil sirve para controlar el formato de la misma en el archivo CSS -->
             <div class="Mi-foticodeperfil">
-                    <img src="" alt=""> 
+                    <img src="Imagenluis123.jpg" alt="Foto de perfil Luis Enrique"> 
             </div>
+          <!-- Para editar especificamente el titulo con mi nombre y los datos personales por separado que forman parte de la primera sección-->
             <div class="informacion-personal">
                     <h1>Luis Enrique Uriarte Franco</h1>
                     <p>Número de célular: 6673264709</p>
@@ -25,37 +29,41 @@
 
         <!-- Perfil profesional -->
          <section class="resumensito">
+            
             <h2>Sobre mí</h2>
-            <p>Soy un aprendiz de desarrollo web con interes en front-end</p>
+            <p>Soy un aprendiz de desarrollo web con interes en front-end y backend.</p>
          </section>
          <!-- Historial laboral -->
           <section class="historialaboral">
             <h2>Historial laboral</h2>
             <div class="trabajos">
                     <h3>Analista de soporte venta/postVenta</h3>
-             <p>Octubre 2024-Presente</p>
-             <p>Encargado de brindar asistencia remota para reparar errores de software y brindar servicio de ayuda para rescatar ventas</p>
+             <p>Octubre 2024 - Presente</p>
+             <p>Encargado de brindar asistencia remota para reparar errores de software y brindar servicio de ayuda para rescatar ventas de grupo C.</p>
                     <h3>Asesor de pensiones</h3>
-                    <p>2018-2021</p>
-                    <p>Proporcioné asesoría en planes de pensión, ayudando a clientes a elegir las mejores opciones para su futuro financiero</p>
+                    <p>2018 - 2021</p>
+                    <p>Proporcioné asesoría en planes de pensión, ayudando a clientes a elegir las mejores opciones para su futuro financiero.</p>
             </div>
           </section>
           <!-- Apartado de mi formación academica -->
-          <div section="Educacion">
+          <section class="Educacion">
             <h2>Educación</h2>
-            <h3>Licenciatura en ingeniería en procesos industriales-Universidad autonoma de Sinaloa</h3>
+            <div class="escuela">
+            <h3>Licenciatura en ingeniería en procesos industriales-Universidad autonoma de Sinaloa.</h3>
             <p>2020-2024</p>
-            <p>Especialidad en dirección de operaciones y cadena de suministro</p> 
+            <p>Especialidad en dirección de operaciones y cadena de suministro.</p> 
         </div>
         <!-- Habilidades adquiridas por mi-->
-         <div section="Habilidades">
+         <section class="Habilidades">
             <h2>Habilidades</h2>
+            <div class="Habilidades">
             <ul>
-                <li>Consultas avanzadas en SQL</li>
-                <li>Generación de dashboards</li>
-                <li>Generación de reportes</li>
-                <li>Asesoría en pensiones</li>
-                <li>Comunicación efectiva</li>
+                <li>Consultas avanzadas en SQL.</li>
+                <li>Generación de dashboards.</li>
+                <li>Generación de reportes.</li>
+                <li>Asesoría en pensiones.</li>
+                <li>Comunicación efectiva.</li>
             </ul>
+            </section>
          </div>
 </body>
